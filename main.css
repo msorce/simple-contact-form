@@ -70,6 +70,8 @@ textarea {
 
 	#submit:hover {
 		opacity:0.9;
+}
+
 .hidden {
 	visibility: hidden;
 	display: none;

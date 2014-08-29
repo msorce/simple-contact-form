@@ -11,6 +11,7 @@ function spamcheck($field) {
 }
 
 if(isset($_POST['submit'])){
+    // kills if hidden form field is filled out
     if(isset($_POST['title']) && !empty($_POST['title'])){
         die();
     }
